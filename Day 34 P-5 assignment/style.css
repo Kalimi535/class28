@@ -1,0 +1,379 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.main-bg{
+    background-color: #f7f9ff;
+}
+
+/* HEADER-SECTION */
+.header-section{
+    position: fixed;
+    width: 100%;
+    display:block;
+    box-shadow: 0 0 10px 5px #ffffff83;
+    z-index: 999;
+}
+.h-logo {
+    width: 300px;
+    line-height: 50px;
+}
+.h-logo img {
+    width: 50px;
+}
+.h-logo span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.h-menu {
+    margin-left: 125px;
+}
+.h-menu ul li{ 
+    padding: 0px 10px;
+}
+.h-menu ul li a {
+    font-size: 18px;
+}
+.botton{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 27px;
+    border-width: 2px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/* BUNNER-SECTION */
+.bunner-section{
+    background: url("https://i.ibb.co/gycsQhv/mbr-10.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.bunner-section h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.bunner-section h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin: 60px 0px;
+}
+.form {
+    padding: 18px 10px;
+}
+.s-submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 65px;
+    border-width: 2px;
+    display: inline-block;
+}
+.s-submit :hover {
+    background: #fff;
+    color: #6278df !important;
+    border: 2px solid #6278df;
+    box-shadow: 0 0 10px 5px #6279df83;
+}
+
+/* COUNTER-SECTION */
+.c-item {
+    margin: 50px 0px;
+}
+.c-item h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #212529;
+}
+.c-item h5 {
+    font-size: 20px;
+}
+
+/* ACTIVITY-SECTION */
+.a-content {
+    width: 95%;
+}
+.a-content h1 {
+    font-size: 42px;
+    font-weight: 500;
+}
+.a-content p {
+    font-size: 19px;
+}
+.a-image img{
+    max-width: 100%;
+}
+
+/* FEATURE-SECTION */
+.f-head h1 {
+    font-size: 49px;
+    font-weight: 400;
+    margin: 50px 0px;
+}
+.f-head p {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+.f-item {
+    height: 255px;
+    border-radius: 5px;
+}
+.f-left{
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
+}
+.f-left img {
+    position: relative;
+    top: 0px;
+    left: -105px;
+    z-index: 5;
+}
+.image {
+    position: relative;
+    top: 0px;
+    left: 0px !important;
+    z-index: 5;
+}
+.f-right {
+    width: 60%;
+    padding: 35px;
+}
+.f-right h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+.f-right p {
+    font-size: 16px;
+}
+
+/* APPLICATION-SECTION */
+.a-box{
+    position: relative;
+    
+}
+.upper-box::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#6279df79;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.a-box:hover ::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* PLANING-SECTION */
+.plan-h{
+    font-size: 55px !important;
+    margin: 25px 0px !important;
+}
+.plan-p {
+    font-size: 22px !important;
+}
+.start-plan {
+    box-sizing: border-box;
+    padding: 40px;
+}
+.start-plan h2 {
+    font-size: 44px;
+    color: #111;
+}
+.start-plan p {
+    font-size: 18px;
+    margin: 25px 0px;
+}
+.start-plan ul {
+    list-style: none;
+    padding-left: 0;
+}
+.start-plan ul li {
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 300;
+}
+.start-plan ul li span {
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: #6278df;
+}
+.plan-btn {
+    text-align: center;
+}
+.plan-btn a {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 22px;
+    color: #6278df;
+    background: #fff;
+    border: transparent;
+}
+
+/* FEEDBACK-SECTIN */
+.feed-h{
+    margin: 20px 0px !important;
+    font-size: 47px !important;
+}
+.feed-P{
+    margin-bottom: 0px !important;
+    padding-top: 80px;
+}
+.feedback-box {
+    box-sizing: border-box;
+    padding: 100px 50px 50px;
+    position: relative;
+}
+.feedback-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.feedback-box p::before {
+    content: "\f10d";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    position: absolute;
+    top: -4%;
+    left: 44%;
+    font-size: 80px;
+    filter: opacity(0.1);
+}
+.clicnt-box {}
+.clint-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.clint-image img{
+    max-width: 100%;
+}
+.clint-deatile {
+    text-align: left;
+    margin-left: 8px;
+}
+.clint-deatile h4 {
+    color: #111;
+    margin-bottom: 3px;
+}
+
+/* our-team-section */
+.our-team-section h1 {
+    color: #111;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 25px 0px 50px;
+}
+.team-history p {
+    font-size: 19px;
+    line-height: 1.6em;
+    font-weight: 300;
+    color: #111 !important;
+}
+.programmer-deatial {
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+}
+.programmer-deatial img {
+    position: absolute;
+    top: -63px;
+    left: 16px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+.programmer-deatial h5 {
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 3px;
+}
+.programmer-deatial p {
+    margin: 23px 0px;
+}
+.programmer-deatial span {
+    font-size: 20px;
+    color: #111;
+}
+.programmer-deatial {
+    box-sizing: border-box;
+    padding: 80px 15px 35px;
+    margin-top: 135px;
+}
+.center{
+    text-align: left !important;
+}
+.center a {
+    font-size: 17px;
+    padding: 6px 12px;
+    color: #111 !important;
+}
+.center a:hover{
+    color: #fff !important;
+}
+
+/* FORM-SECTION */
+.send-message{
+    box-sizing: border-box;
+}
+.w-10 {
+    width: 100%!important;
+    padding: 20px 15px;
+}
+::placeholder {
+    font-size: 20px;
+}
+.f-button a {
+    color: #fff;
+    background: #6278df;
+    padding: 15px 24px;
+}
+.f-submit {
+    font-weight: 600;
+    padding: 15px 60px;
+    margin: 20px 10px 40px;
+    background: #fff;
+    color: #5ba533;
+    border: 2px solid #5ba533;
+    transition: .4s;
+}
+.f-submit:hover{
+    background: #5ba533!important;
+    color: #fff !important;
+    border-color: #5ba533;
+}
+.f-submit1 {
+    font-weight: 600;
+    padding: 15px 60px;
+    margin: 20px 10px 40px;
+    background: #5ba533;
+    border: 2px solid #5ba533;
+    transition: .4s;
+}
+.f-submit1:hover{
+    background: #fff !important;
+    color: #5ba533 !important;
+    border-color: #5ba533;
+}
+.f-head img{
+    max-width: 100%;
+}
+
+.footer p {
+    font-size: 20px;
+    background: #f7f9ff;
+    margin-bottom: 0;
+}
+
